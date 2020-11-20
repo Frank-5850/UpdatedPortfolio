@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: rgb(179, 179, 179);
 }
 
 .navbar,
@@ -15,4 +15,8 @@ body {
 
 .name {
   padding-left: 60px;
+}
+
+body {
+  color: rgba(0, 0, 0, 0.685);
 }
