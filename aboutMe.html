@@ -4,62 +4,176 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./Assets/style.css">
     <title>Portfolio</title>
 </head>
-<body>
-  <nav class="navbar" role="navigation" aria-label="main navigation">
-
-    <div class="navbar-brand">  
-      <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-        <span aria-hidden="true"></span>
-      </a>
-    </div>
-  
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
-        <a class="navbar-item" href="./aboutMe.html">
-          Home
-        </a>
-  
-        <a class="navbar-item" href="./photos.html">
-          photos
-        </a>
-  
-      </div>
-  
-      <div class="navbar-end">
-        
-        <div class="navbar-item has-dropdown is-hoverable">
-  
-          <div class="navbar-dropdown">
-            <a class="navbar-item">
-              About
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
             </a>
-            <a class="navbar-item">
-              Jobs
-            </a>
-            <a class="navbar-item">
-              Contact
-            </a>
-            <hr class="navbar-divider">
-            <a class="navbar-item">
-              Report an issue
-            </a>
-          </div>
         </div>
-      </div>
-    </div>
-  </nav>
-<main class="container">
-  help
+        <div id="navbarBasicExample" class="navbar-menu">
+            <div class="navbar-start">
+                <a class="navbar-item" href="./aboutMe.html">
+                    <i class="fas">
+                        Franco Phan
+                    </i>
+                </a>
+            </div>
+            <div class="navbar-end">
+                <a class="navbar-item" target="_blank" href="https://www.linkedin.com/in/franco-phan-5b14b7144/">
+                    <i class="fab fa-linkedin">
+                    linkedin
+                    </i>
+                </a>
+                <a class="navbar-item" target="_blank" href="https://github.com/Frank-5850">
+                    <i class="fab fa-github-square">
+                        Github
+                    </i>
+                </a>
+                <a class="navbar-item" target="_blank" href="https://github.com/Frank-5850">
+                    <i class="fas fa-file">
+                        resume
+                    </i>
+                </a>            
+            </div>
+        </div>
+    </nav>
 
-</main>
-  <footer class="footer">
-    
-  </footer>
-  <script src="https://kit.fontawesome.com/8b64433d1e.js" crossorigin="anonymous"></script>
+    <main class="container">
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child notification mt-3">
+                    <div class="content mt-6">
+                        <p class="title is-size-1 has-text-centered m-0">Franco Phan</p>
+                        <hr class="navbar-divider">
+                        <p class="job is-size-5 has-text-right m-0">Web Developer/Photographer/</p>
+                        <p class="job is-size-5 has-text-right m-0">Sales Planning Specialist</p>
+                        <div class="content">
+                            <p class="title is-size-3 mt-4">Who I Am...</p>
+                            <p>Born in 1991 Oakland, CA. 
+                                During my highschool years I started working at IKEA as a sales associate and during my 12 years here I eventually got promoted to a Sales Planning specialist where i manage sales for 3 departments. 
+                                In 2020 I decided to change career paths to learn web development as my fascination from it in highschool revitalized with a goal of becoming a full stack Developer. I also like to take photos on my free time.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-vertical is-8">
+                <div class="tile is-parent">
+                    <article class="tile is-child notification">
+                        <p class="title is-size-1 has-text-centered mb-0 mt-3">Portfolio</p>
+                    </article>
+                </div>
+                <div class="tile">
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification">
+                            <p class="title"></p>
+                            <p class="subtitle"></p>
+                            <figure class="image is-5by3">
+                                <img src="./Assets/Photos/CityHall.jpg">
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="tile is-ancestor m-0 p-0">
+            <div class="tile is-parent m-0 p-0">
+                <article class="tile is-child notification m-0 p-0">
+                    <p class="title is-size-2 m-0 p-0">Projects</p>
+                    <hr class="navbar-divider">
+                </article>
+            </div>
+        </div>
+
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-12">
+                <div class="tile">
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification">
+                            <p class="title">01-Agile Project</p>
+                            <p class="subtitle is-size-5">An app that generates the top 5 videos from a selected country that has a English to spanish translator</p>
+                            <figure class="image is-4by3">
+                                <img src="./Assets/Photos/GrandLakeTheatre.jpg">
+                            </figure>
+                            <div>
+                                <a target="_blank" href="https://frank-5850.github.io/Agile_Project/">
+                                    <i class="fas fa-tablet-alt">
+                                        Deployed
+                                    </i>
+                                </a>
+                                <a target="_blank" href="https://github.com/Frank-5850/Agile_Project">
+                                    <i class="fab fa-github-square">
+                                        Github
+                                    </i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification">
+                            <p class="title">Password Generator</p>
+                            <p class="subtitle">This was one of the very first applications I created with Javascript. It's not the best but its my first and that makes me proud</p>
+                            <figure class="image is-4by3">
+                                <img src="./Assets/Photos/GrandLakeTheatre.jpg">
+                            </figure>
+                            <div>
+                                <a target="_blank" href="https://frank-5850.github.io/03RandomPWGenerator/">
+                                    <i class="fas fa-tablet-alt">
+                                        Deployed
+                                    </i>
+                                </a>
+                                <a target="_blank" href="https://github.com/Frank-5850/03RandomPWGenerator">
+                                    <i class="fab fa-github-square">
+                                        Github
+                                    </i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification">
+                            <p class="title">Weather Forecast</p>
+                            <p class="subtitle">This was one of the very first applications I created using an API server to populate fields within the HTML using their server</p>
+                            <figure class="image is-4by3">
+                                <img src="./Assets/Photos/GrandLakeTheatre.jpg">
+                            </figure>
+                            <div>
+                                <a target="_blank" href="https://frank-5850.github.io/06WeatherDashboard/">
+                                    <i class="fas fa-tablet-alt">
+                                        Deployed
+                                    </i>
+                                </a>
+                                <a target="_blank" href="https://github.com/Frank-5850/06WeatherDashboard">
+                                    <i class="fab fa-github-square">
+                                        Github
+                                    </i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div> 
+        </div>
+        <div class="tile is-ancestor">
+            <div class="tile is-parent ">
+                <article class="tile is-child notification ">
+                    <p class="title is-size-2 ">Contact</p>
+                    <p>phanfranco@yahoo.com</p>
+                    <p>(510)822-1345</p>
+                    <hr class="navbar-divider">
+                </article>
+            </div>
+        </div>
+    </main>
+<script src="https://kit.fontawesome.com/8b64433d1e.js" crossorigin="anonymous"></script>
 <script src="./Assets/app.js"></script>
 </body>
 </html>
