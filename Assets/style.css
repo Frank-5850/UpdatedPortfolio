@@ -1,0 +1,18 @@
+body {
+  background-color: grey;
+}
+
+.navbar,
+.tile {
+  background: rgba(0, 151, 19, 0);
+}
+
+.fas,
+.fab {
+  color: white;
+  font-size: large;
+}
+
+.name {
+  padding-left: 60px;
+}

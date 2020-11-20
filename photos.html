@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <link rel="stylesheet" href="./Assets/style.css">
     <title>Portfolio</title>
 </head>
-<body>
-    <nav class="navbar" role="navigation" aria-label="main navigation">
+<body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
             <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                 <span aria-hidden="true"></span>
@@ -15,7 +16,6 @@
                 <span aria-hidden="true"></span>
             </a>
         </div>
-      
         <div id="navbarBasicExample" class="navbar-menu">
             <div class="navbar-start">
                 <a class="navbar-item" href="./aboutMe.html">
@@ -24,7 +24,6 @@
                     </i>
                 </a>
             </div>
-      
             <div class="navbar-end">
                 <a class="navbar-item" target="_blank" href="https://www.linkedin.com/in/franco-phan-5b14b7144/">
                     <i class="fab fa-linkedin">
@@ -39,6 +38,148 @@
             </div>
         </div>
     </nav>
+
+    <main class="container">
+
+        <div class="tile is-ancestor">
+            <div class="tile is-parent">
+                <article class="tile is-child notification">
+                    <div class="content">
+                        <p class="title">Tall tile</p>
+                        <p class="subtitle">With even more content</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </div>
+                </article>
+            </div>
+            <div class="tile is-vertical is-8">
+                <div class="tile is-parent">
+                    <article class="tile is-child notification">
+                        <p class="title">Wide tile</p>
+                        <p class="subtitle">Aligned with the right tile</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </article>
+                </div>
+                <div class="tile">
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification">
+                            <p class="title">Middle tile</p>
+                            <p class="subtitle">With an image</p>
+                            <figure class="image is-4by3">
+                                <img src="./Assets/Photos/BayBridge.jpg">
+                            </figure>
+                        </article>
+                    </div>
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child notification">
+                            <p class="title">Vertical...</p>
+                            <p class="subtitle">Top tile</p>
+                        </article>
+                        <article class="tile is-child notification">
+                            <p class="title">...tiles</p>
+                            <p class="subtitle">Bottom tile</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+                <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                        <article class="name tile is-child notification">
+                            <p class="title is-size-1 has-text-left has-text-weight-semibold">Franco Phan</p>
+                            <hr class="navbar-divider">
+                            <p class="job is-size-5 has-text-right">Web Developer/Photographer</p>
+                            <p class="job is-size-5 has-text-right">Sales Associate</p>
+                        </article>
+                        <article class="tile is-child notification">
+                            <p class="title"></p>
+                            <p class="subtitle"></p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification">
+                            <p class="title"></p>
+                            <p class="subtitle"></p>
+                            <figure class="image is-4by3">
+                                <img src="./Assets/Photos/GrandLakeTheatre.jpg">
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification">
+                        <p class="title">Wide tile</p>
+                        <p class="subtitle">Aligned with the right tile</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child notification">
+                    <div class="content">
+                        <p class="title is-size-1 has-text-centered">Portfolio</p>
+                        <p class="subtitle"></p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    
+        <div class="tile is-ancestor">
+            <div class="tile is-vertical is-8">
+                <div class="tile">
+                    <div class="tile is-parent is-vertical">
+                        <article class="tile is-child notification">
+                            <p class="title">Vertical...</p>
+                            <p class="subtitle">Top tile</p>
+                        </article>
+                        <article class="tile is-child notification">
+                            <p class="title">Franco Phan</p>
+                            <p class="subtitle">Bottom tile</p>
+                        </article>
+                    </div>
+                    <div class="tile is-parent">
+                        <article class="tile is-child notification">
+                            <p class="title">Middle tile</p>
+                            <p class="subtitle">With an image</p>
+                            <figure class="image is-4by3">
+                                <img src="./Assets/Photos/CityHall.jpg">
+                            </figure>
+                        </article>
+                    </div>
+                </div>
+                <div class="tile is-parent">
+                    <article class="tile is-child notification">
+                        <p class="title">Wide tile</p>
+                        <p class="subtitle">Aligned with the right tile</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </article>
+                </div>
+            </div>
+            <div class="tile is-parent">
+                <article class="tile is-child notification">
+                    <div class="content">
+                        <p class="title">Tall tile</p>
+                        <p class="subtitle">With even more content</p>
+                        <div class="content">
+                            <!-- Content -->
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </main>
 <script src="https://kit.fontawesome.com/8b64433d1e.js" crossorigin="anonymous"></script>
 <script src="./Assets/app.js"></script>
 </body>
